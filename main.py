@@ -10,5 +10,6 @@ def install_dependencies():
     subprocess.check_call([sys.executable, "-m", "pip", "install", "discord"])
 
 if not os.path.isfile("config.json"):
+    install_dependencies()
     setup_wizard.Wizard()
 import start_discord
