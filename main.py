@@ -1,4 +1,4 @@
-# Main script which will start the minecraft server after, if needed the setup wizard.
+# Main script which will start the discord bot after, if needed, the setup wizard.
 
 import setup_wizard
 import os
