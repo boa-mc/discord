@@ -1,4 +1,4 @@
-"""The setup wizard for both the Minecraft server and the Discord bot."""
+"""The setup wizard for both the Discord bot."""
 import json
 import os
 import sys
