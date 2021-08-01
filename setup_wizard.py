@@ -14,7 +14,7 @@ class Wizard:
         print("Welcome to the Discord bot setup.\n"
               "This tool will guide you to get your Discord bot running.")
         while True:
-            token = input("Discord client token? ")
+            token = input("Discord bot token? ")
             if os.system(sys.executable + " test_token.py " + token) == 0:
                 open(".TOKEN", "w").write(token)
                 break
