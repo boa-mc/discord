@@ -3,6 +3,7 @@ A Discord bot node
 
 ## Installing
 > :warning: Remember: mc-server-tools is meant to be run on ubuntu server.
+
 Run the following commands:
 ```bash
 git clone https://github.com/mc-server-tools/discord/
