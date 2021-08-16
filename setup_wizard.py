@@ -62,3 +62,5 @@ class Wizard:
                 self.pingOk = True
         except ConnectionRefusedError:
             pass
+
+Wizard()

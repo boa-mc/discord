@@ -1,6 +1,5 @@
 # Main script which will start the discord bot after, if needed, the setup wizard.
 
-import setup_wizard
 import os
 import sys
 import argparse
@@ -19,5 +18,5 @@ def install_dependencies():
 
 if not os.path.isfile("config.json")or args.setup is True:
     install_dependencies()
-    setup_wizard.Wizard()
-import start_discord
+    os.system(sys.executable + " setup_wizard.py")
+os.system(sys.executable + " start_discord.py")
